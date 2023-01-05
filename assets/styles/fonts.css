@@ -1,0 +1,56 @@
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Light.woff2') format('woff2'), 
+    url('../fonts/Inter-Light.woff') format('woff');
+    font-weight: 300;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Regular.woff2') format('woff2'), 
+    url('../fonts/Inter-Regular.woff2') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-Bold.woff2') format('woff2'), 
+    url('../fonts/Inter-Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inika';
+    src: url('../fonts/Inika.woff2') format('woff2'), 
+    url('../fonts/Inika.woff2') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inika';
+    src: url('../fonts/Inika-Bold.woff2') format('woff2'), 
+    url('../fonts/Inika-Bold.woff') format('woff');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../fonts/RobotoRegular.woff2') format('woff2'), 
+    url('../fonts/RobotoRegular.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-SemiBold.woff2') format('woff2'), 
+    url('../fonts/Inter-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-display: swap;
+}
