@@ -1,0 +1,48 @@
+.service {
+    padding: 40px 0 121px;
+    background-color: #EDF2EC;
+}
+
+.service__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1007px;
+}
+
+.service__title {
+    max-width: 306px;
+}
+
+.service__buttons {
+    display: flex;
+    align-items: center;
+    gap: 38px;
+}
+
+.buttons__list {
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #E06733;
+    padding: 11.5px 40px;
+    border: 1px solid #E06733;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    background-color: inherit;
+}
+
+.buttons__list:nth-child(2) {
+    padding: 11.5px 54px;
+}
+
+.buttons__list:nth-child(1) {
+    padding: 11.5px 42px;
+}
+
+.buttons__list:hover {
+    background-color: #E06733;
+    color: #FFFFFF;
+    transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}

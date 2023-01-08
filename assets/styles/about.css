@@ -1,0 +1,40 @@
+.about {
+    padding: 93px 0 94px;
+}
+
+.about__container {
+    display: flex;
+    justify-content: space-between;
+    gap: 153px;
+}
+
+.about__content {
+    max-width: 605px;
+}
+
+.content__title {
+    max-width: 470px;
+    padding-top: 68px;
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+    margin-bottom: 40px;
+}
+
+.content__title-color {
+    color: #E06733;
+}
+
+.content__description {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #636060;
+}
+
+.about__picture {
+    line-height: 0;
+}

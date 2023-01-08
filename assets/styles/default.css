@@ -1,6 +1,5 @@
 html {
     box-sizing: border-box;
-
     scroll-behavior: smooth;
     
 }
@@ -13,24 +12,22 @@ body {
     min-width: 320px;
     min-height: 100vh;
     margin: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Inter', sans-serif;
+
+    font-style: normal;
     font-size: 16px;
     font-weight: 400;
-    /* line-height: 22.4px; */
-    color: #333B41;
+    color: #636060;
 
     position: relative;
     width: 100%;
-    /* max-width: 1600px; */
+    /* max-width: 1440px; */
     margin: 0 auto;
-    /* 
-    position: relative;
-    scroll-behavior: smooth; */
 }
 
 img, svg {
     max-width: 100%;
-    height: auto;
+    /* height: auto; */
     max-height: 100%;
 }
 
@@ -50,22 +47,31 @@ ul{
     margin: 0;
 }
 
-h1, h2, h3, h4, p {
+h1, h2, h3, p {
     margin: 0;
 }
 
 .container {
-    max-width: 1220px;
-    padding: 0 30px;
+    max-width: 1272px;
+    padding: 0 25px;
     margin: 0 auto;
 }
 
-.wrapper {
+.title {
+    font-family: 'Inika';
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 52px;
+    color: #499A18;
+}
+
+
+/* .wrapper {
     margin: 0 auto;
     width: 100%;
-}
+} */
 
-.button {
+/* .button {
     width: 298px;
     height: 54px;
     background-image: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
@@ -104,4 +110,4 @@ h1, h2, h3, h4, p {
         padding: 0 20px;
         margin: 0 auto;
     }
-}
+} */

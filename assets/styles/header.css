@@ -1,0 +1,35 @@
+.header {
+    padding: 42px 0px;
+    background-color: #EDF2EC;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: flex;
+    gap: 2px;
+    justify-self: flex-start;
+    padding-left: 1px;
+}
+
+.logo__image {
+    display: block;
+    margin-top: -5px;
+    width: 20px;
+    height: 20px;
+}
+
+.logo__title {
+    font-family: 'Inika';
+    line-height: 21px;    
+    color: #000000;
+}
+
+.header__navigation {
+    justify-self: end;
+}
+
