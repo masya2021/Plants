@@ -10,6 +10,9 @@
     max-width: 1007px;
 }
 
+.card {
+    justify-content: center;
+}
 .service__title {
     max-width: 306px;
 }
@@ -45,4 +48,56 @@
     background-color: #E06733;
     color: #FFFFFF;
     transition: color 0.4s ease-in-out, background-color 0.4s ease-in-out;
+}
+
+
+@media(max-width: 1000px) {
+    .service {
+        padding: 60px 0px 0px;
+    }
+    
+    .service__content {
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        max-width: 559px;
+        padding-left: 2px;
+        gap: 41px;
+    }
+    
+    .service__buttons {
+        display: flex;
+        align-items: center;
+        gap: 38px;
+    }
+}
+
+
+@media(max-width: 580px) {
+    .service {
+        padding-top: 30px;
+    }  
+    .service__content {
+        gap: 38px;
+    }  
+   .service__title  {
+       max-width: 187px;
+       width: 100%;
+    }
+    .service__buttons {
+        flex-wrap: wrap;
+        gap: 9px 10px;
+    }
+   .buttons__list {
+       font-size: 15px;
+       line-height: 20px;
+       padding: 7px 30px;
+    }
+    .buttons__list:nth-child(2) {
+        padding: 7px 38px;
+    }
+    
+    .buttons__list:nth-child(1) {
+        padding: 7px 30px;
+    }
 }

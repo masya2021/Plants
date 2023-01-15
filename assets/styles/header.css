@@ -29,7 +29,39 @@
     color: #000000;
 }
 
-.header__navigation {
-    justify-self: end;
+
+@media(max-width: 1440px) {
+   
+}
+
+@media(max-width: 1200px) {
+   
+}
+
+@media(max-width: 1000px) {
+    .header {
+        padding: 35px 0px;
+    }
+    .header__logo {
+        gap: 1px;
+        padding-left: 3px;
+    }
+}
+
+@media(max-width: 480px) {
+    .header {
+        padding: 33px 0px;
+    }
+    .header__logo {
+        gap: 1px;
+        padding-left: 0px;
+    }
+    .logo__title {
+        margin-left: -1px;
+        padding-top: 6px;
+    }
+    .logo__image {
+        margin-top: 2px;
+    }
 }
 

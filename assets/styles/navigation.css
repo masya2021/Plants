@@ -1,3 +1,10 @@
+.navigation {
+    position: inherit;
+    z-index: 5;
+}
+.header__navigation {
+    justify-self: end;
+}
 
 .navigation__list {
     display: flex;
@@ -14,7 +21,6 @@
     line-height: 50px;
     color: #010201;
     letter-spacing: 0.01em;
-    /* transition: 0.3s ease-in-out; */
 }
 
 .navigation__item {
@@ -28,21 +34,80 @@
     font-weight: 700;
     transition: color 0.2s ease-in-out, font-weight 0.4s ease-in;
 }
-/*
-.navigation__link:hover {
-    font-weight: 700;
-    color: #E06733;
-    transition: color;
-} */
 
-.footer__item:not(:last-child) {
-    margin-bottom: 20px;
+.navigation__button {
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    gap: 6px;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    top: 0px;
+    right: 0px;
 }
 
-.footer__link {
-    transition: color 0.3s ease-in-out;
+.navigation__button-close {
+    color: rgba(1, 2, 1, 0.663);
+    width: 36px;
+    height: 36px;
 }
 
-.footer__link:hover {
-    color: var(--second-bg-color);
+.navigation__button.navigation__button-active {
+    display: flex;
+}
+
+@media(max-width: 1000px) {
+    .navigation__item:not(:nth-child(1)) {
+        letter-spacing: 0.005em;
+    }
+}
+
+@media(max-width: 668px) {
+    .navigation {
+        display: none;
+    }
+
+    .navigation-mobile {
+        gap: 20px;
+        padding: 55px 35px 25px;
+        max-width: 180px;
+        background-color: rgba(224, 103, 51, 0.8);
+        border-radius: 15px;
+        border-top-right-radius: 0px;
+        top: 0;
+        right: 120px;
+        transition: right 2s ease-in-out;
+    }
+
+    .navigation__list {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0px;
+        gap: 25px;
+        cursor: pointer;
+    }
+
+    .navigation__item {
+        font-weight: 400;
+        color: #010201;
+        letter-spacing: 0.005em;
+        line-height: 10px;
+    }
+    .navigation__item:first-child {
+        margin-top: 10px;
+    }
+    .navigation__item:not(:nth-child(1)) {
+        letter-spacing: 0.005em;
+        line-height: 10px;
+    }
+    .show {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: -120px;
+        text-align: right;
+        transform: translateX(-120px);
+        transition: transform 2s;
+    }
 }

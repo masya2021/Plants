@@ -13,6 +13,14 @@
     /* gap: 10px; */
 }
 
+.desctopversion {
+    display: block;
+}
+
+.tabletversion {
+    display: none;
+}
+
 .card__text {
     display: flex;
     flex-direction: column;
@@ -40,4 +48,71 @@
     line-height: 20px;
     color: #717171;
     margin-bottom: 36px;
+}
+
+.planting {
+    filter: blur(2px);
+}
+
+.lawncare {
+    filter: blur(2px);
+}
+@media(max-width: 1440px) {
+   
+}
+
+@media(max-width: 1200px) {
+   
+}
+
+@media(max-width: 1000px) {
+    .card {
+        padding-top: 40px;
+        padding-bottom: 70px;
+        gap: 36px 106px;
+    }
+    
+    .card__item {
+        max-width: 280px;
+        padding-left: 2px;
+    }
+    
+    .card__image {
+        width: 280px;
+        max-width: 100%;
+        height: 350px;
+    }
+    
+    .desctopversion {
+        display: none;
+    }
+
+    .tabletversion {
+        display: block;
+    }
+    
+    .card__text {
+        max-width: 280px;
+        text-align: center;
+    }
+    
+    .text__title {
+        margin-bottom: 10px;
+    }
+    
+    .text__description {
+        max-width: 201px;
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 760px) {
+   
+}
+
+@media(max-width: 580px) {
+    .card {
+        gap: 32px;
+        padding-bottom: 23px;
+    }
 }
